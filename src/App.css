@@ -1,0 +1,19 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.width-90 {
+  width: 100%;
+}

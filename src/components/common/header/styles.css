@@ -1,0 +1,24 @@
+.logo {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.app-header {
+    width: 100%;
+    display: flex;
+    border-radius: 0.5em;
+    align-items: center;
+    background-color: rgb(224, 205, 251);
+    justify-content: space-between;
+}
+
+.create-button {
+    background-color: #7D26CD !important;
+    border-color: #7D26CD !important;
+}
+
+.create-button:hover {
+    background-color: #6821a8 !important;
+    border-color: #6821a8 !important;
+}
