@@ -54,7 +54,7 @@ const CreateForm = () => {
             name="time"
             rules={[{ required: true, message: 'Please enter the close time' }]}
           >
-            <DatePicker.RangePicker size="large"  showTime style={{ width: '100%' }} />
+            <DatePicker.RangePicker placeholder={["Start Time", "Close Time"]} size="large"  showTime style={{ width: '100%' }} />
           </Form.Item>
       <Form.Item>
         <Button style={{ width: '100%' }} size="large" type="primary" htmlType="submit">
